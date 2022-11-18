@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/shared/interfaces/util-general/src",
+  "prefix": "function-vs-service",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/interfaces/util-general"],
+      "options": {
+        "jestConfig": "libs/shared/interfaces/util-general/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/interfaces/util-general/**/*.ts",
+          "libs/shared/interfaces/util-general/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

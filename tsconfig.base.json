@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@function-vs-service/shared/interfaces/ui-components": [
+        "libs/shared/interfaces/ui-components/src/index.ts"
+      ],
+      "@function-vs-service/shared/interfaces/util-general": [
+        "libs/shared/interfaces/util-general/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

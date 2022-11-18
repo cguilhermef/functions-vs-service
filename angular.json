@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "app": "apps/app",
-    "app-e2e": "apps/app-e2e"
+    "app-e2e": "apps/app-e2e",
+    "shared-interfaces-ui-components": "libs/shared/interfaces/ui-components",
+    "shared-interfaces-util-general": "libs/shared/interfaces/util-general"
   }
 }
