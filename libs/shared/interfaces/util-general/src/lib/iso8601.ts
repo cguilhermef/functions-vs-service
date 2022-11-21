@@ -1,3 +1,4 @@
+alert('O arquivo iso8601 foi importado!');
 class Iso8601Singleton {
   private static instance: Iso8601Singleton;
 

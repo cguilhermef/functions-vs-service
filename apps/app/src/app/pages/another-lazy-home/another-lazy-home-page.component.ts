@@ -4,7 +4,6 @@ import {
   rest,
   sum,
 } from '@function-vs-service/shared/interfaces/util-general';
-
 @Component({
   selector: 'function-vs-service-another-lazy-home-page',
   templateUrl: './another-lazy-home-page.component.html',
@@ -16,23 +15,8 @@ export class AnotherLazyHomePageComponent implements OnInit {
   value2 = 20;
 
   ngOnInit() {
-    console.log(
-      `The rest of ${this.value1} and ${this.value2} is ${rest(
-        this.value1,
-        this.value2
-      )}`
-    );
-    console.log(
-      `The sum of ${this.value1} and ${this.value2} is ${sum(
-        this.value1,
-        this.value2
-      )}`
-    );
-    console.log(
-      `The divide of ${this.value1} and ${this.value2} is ${divide(
-        this.value1,
-        this.value2
-      )}`
-    );
+    console.log(rest(this.value1, this.value2));
+    console.log(sum(this.value1, this.value2));
+    console.log(divide(this.value1, this.value2));
   }
 }

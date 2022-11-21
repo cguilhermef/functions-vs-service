@@ -1,3 +1,4 @@
+alert('O arquivo pure-functions foi importado!');
 export function rest(value1: number, value2: number): number {
   return value1 % value2;
 }
