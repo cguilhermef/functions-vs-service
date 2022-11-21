@@ -5,6 +5,8 @@
     "app": "apps/app",
     "app-e2e": "apps/app-e2e",
     "shared-interfaces-ui-components": "libs/shared/interfaces/ui-components",
+    "shared-interfaces-util-discovery": "libs/shared/interfaces/util-discovery",
+    "shared-interfaces-util-explore": "libs/shared/interfaces/util-explore",
     "shared-interfaces-util-general": "libs/shared/interfaces/util-general"
   }
 }

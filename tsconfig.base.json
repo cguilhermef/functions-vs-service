@@ -18,6 +18,12 @@
       "@function-vs-service/shared/interfaces/ui-components": [
         "libs/shared/interfaces/ui-components/src/index.ts"
       ],
+      "@function-vs-service/shared/interfaces/util-discovery": [
+        "libs/shared/interfaces/util-discovery/src/index.ts"
+      ],
+      "@function-vs-service/shared/interfaces/util-explore": [
+        "libs/shared/interfaces/util-explore/src/index.ts"
+      ],
       "@function-vs-service/shared/interfaces/util-general": [
         "libs/shared/interfaces/util-general/src/index.ts"
       ]
